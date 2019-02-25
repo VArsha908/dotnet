@@ -1,0 +1,79 @@
+﻿@page
+@model ListModel
+@{
+}
+<form method="get">
+<div class="form-group">
+    <input type="search" class="form-control"asp-for="SearchTerm" />
+    <span class=input-group-btn>
+        <button class="btn btn-default">
+            <i class="glyphicon glyphicon-search"></i>
+        </button>
+    </span>
+</div>
+ </form>
+<table class="table">
+    @foreach (var post in Model.Posts)
+    {
+    <tr>
+        <td>@post.Name</td>
+        <td>@post.Message</td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="/Detail"
+               asp-route-postId="@post.Id">
+                <i class="glyphicon glyphicon-zoom-in"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="/Edit"
+               asp-route-postId="@post.Id">
+                <i class="glyphicon glyphicon-edit"></i>
+            </a>
+        </td>
+        <td>
+
+            <script>
+        function clickCounter() {
+            if (typeof (likes) !== "undefined") {
+                if (likes.clickcount) {
+                    likes.clickcount = Number(likes.clickcount) + 1;
+                } else {
+                    likes.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = likes.clickcount;
+            }
+            else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+            </script>
+
+            <a class="btn btn-lg"
+                asp-page="/Detail"
+                asp-route-postId="@post.Id">
+                    <i class="glyphicon glyphicon-thumbs-up"></i>
+                <div id="result"></div>
+            </a>
+            @*<a class="btn btn-lg"
+               asp-page="/Detail"
+               
+                <i class="glyphicon glyphicon-thumbs-up"></i>
+            </a>*@
+        </td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="/Detail"
+               asp-route-postId="@post.Id">
+                <i class="glyphicon glyphicon-comment"></i>
+            </a>
+        </td>
+    </tr>
+
+    }
+</table>
+
+<a asp-page="/Edit" class="btn btn-primary">Add new POST</a>
+
+<div>@Model.Message</div>

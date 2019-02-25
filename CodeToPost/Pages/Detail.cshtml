@@ -1,0 +1,54 @@
+﻿@page "{postId:int?}"
+
+@model CodeToPost.Pages.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>@Model.Post.Name</h2>
+<div>
+   <h4> Id:@Model.Post.Id</h4>
+</div>
+<div>
+    <h4> Message:@Model.Post.Message</h4>
+</div>
+<div>
+
+    @if (Model.Message != null)
+    {
+        <div class="alert alert-info">@Model.Message</div>
+    }
+    <script>
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = localStorage.clickcount;
+            }
+            else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+
+    <a class="btn btn-lg">
+        <p onclick="clickCounter()"
+            asp-route-postId="@Model.Post.Id">
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+        </p>
+        <div id="result"></div>
+    </a>
+    <a class="btn btn-lg"
+       asp-page="/Comment"
+       asp-route-postId="@Model.Post.Id">
+        <i class="glyphicon glyphicon-comment"></i>
+    </a>
+
+    @*<a asp-page="/Comment" class="btn btn-primary">Add new comment</a>*@
+    <br>
+
+    <a asp-page="/Posts/List" class="btn btn-lg">All Posts</a>
+</div>

@@ -1,0 +1,27 @@
+﻿@page "{postId:int?}"
+
+@model CodeToPost.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editing @Model.Post.Name</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="Post.Id" />
+    <div class="form-group">
+        <label asp-for="Post.Name"></label>
+        <input asp-for="Post.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Post.Name"></span>    
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Post.Message"></label>
+        <input asp-for="Post.Message" class="form-control" />
+        <span class="text-danger" asp-validation-for="Post.Message"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+

@@ -1,0 +1,14 @@
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Data.deps.json
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Data.dll
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Data.pdb
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Core.dll
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Core.pdb
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.csprojAssemblyReference.cache
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.csproj.CoreCompileInputs.cache
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.AssemblyInfoInputs.cache
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.AssemblyInfo.cs
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.csproj.CopyComplete
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.dll
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\obj\Debug\netcoreapp2.1\CodeToPost.Data.pdb
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Data.runtimeconfig.json
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.data\bin\Debug\netcoreapp2.1\CodeToPost.Data.runtimeconfig.dev.json

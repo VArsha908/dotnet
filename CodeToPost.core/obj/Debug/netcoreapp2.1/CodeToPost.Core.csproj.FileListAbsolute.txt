@@ -1,0 +1,9 @@
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\bin\Debug\netcoreapp2.1\CodeToPost.Core.deps.json
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\bin\Debug\netcoreapp2.1\CodeToPost.Core.dll
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\bin\Debug\netcoreapp2.1\CodeToPost.Core.pdb
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.csproj.CoreCompileInputs.cache
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.AssemblyInfoInputs.cache
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.AssemblyInfo.cs
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.dll
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.pdb
+C:\Users\varsha\Desktop\DOT NET\CodeToPost\CodeToPost.core\obj\Debug\netcoreapp2.1\CodeToPost.Core.csprojAssemblyReference.cache
